@@ -1,0 +1,62 @@
+// Accountant
+export const DOLLAR_CHANGED = 'dollar_changed'
+export const TOTAL_RATED = 'total_rated'
+export const PAYOUT_AMOUNT = 'payout_amount'
+export const LOCK_PAYOUTS = 'lock_payouts'
+export const UPDATE_HAS_PAID = 'update_has_paid'
+
+// Auth
+export const EMAIL_CHANGED = 'email_changed'
+export const PASSWORD_CHANGED = 'password_changed'
+export const SECOND_PASSWORD_CHANGED = 'second_password_changed'
+export const NEW_PASSWORD = 'new_password'
+export const MATCH_PASSWORD = 'match_password'
+export const LOGIN_USER_SUCCESS = 'login_user_success'
+export const LOGIN_NEW_USER_SUCCESS = 'login_new_user_success'
+export const LOGIN_CREATE_USER_SUCCESS = 'login_create_user_success'
+export const LOGIN_USER_FAIL = 'login_user_fail'
+export const LOGIN_USER = 'login_user'
+export const CHECK_USER = 'check_user'
+export const ADD_TO_STORE = 'add_to_store'
+export const LOGOUT = 'logout'
+
+// Employee
+export const NEW_USER = 'new_user'
+export const FNAME_CHANGED = 'fname_changed'
+export const LNAME_CHANGED = 'lname_changed'
+export const SPHERE_CHANGED = 'sphere_changed'
+export const NEW_EMAIL_CHANGED = 'new_email_changed'
+export const EMPLOYEE_LOGIN_SUCCESS = 'employee_login_success'
+export const ADD_SPHERE_ID = 'add_sphere_id'
+export const LOGOUT_EMPLOYEE = 'logout_employee'
+
+// History
+export const GET_HISTORY = 'get_history'
+export const CLEAR_HISTORY = 'clear_history'
+
+// New Participant
+export const FNAME_CHANGED_NEW_PARTICIPANT = 'fname_changed_new_participant'
+export const LNAME_CHANGED_NEW_PARTICIPANT = 'lname_changed_new_participant'
+export const SPHERE_CHANGED_NEW_PARTICIPANT = 'sphere_changed_new_participant'
+export const EMAIL_CHANGED_NEW_PARTICIPANT = 'email_changed_new_participant'
+export const CREATE_SUCCEEDED = 'create_succeeded'
+export const LOGOUT_NEW_PARTICIPANT = 'logout_new_participant'
+
+// Participant
+export const PARTICIPANT_LOAD = 'participant_load'
+export const PARTICIPANT_FETCH = 'participant_fetch'
+export const GET_PARTICIPANTS_SUCCESS = 'get_participants_success'
+export const PARTICIPANT_RATING = 'participant_rating'
+export const GET_RATING_AVERAGE_SUCCESS = 'get_rating_average_success'
+export const REFRESH_RATING = 'refresh_rating'
+export const SET_PARTICIPANT_RATE_INITIAL = 'set_participant_rate_initial'
+export const HANDLE_PARTICIPANT_DATA = 'handle_participant_data'
+export const HANDLE_RATING_DATA = 'handle_rating_data'
+export const GET_HAS_RATED = 'get_has_rated'
+export const USER_HAS_RATED = 'user_has_rated'
+export const ADD_RATING_TO_STORE = 'add_rating_to_store'
+export const CLEAR_PARTICIPANT_RATINGS = 'clear_participant_ratings'
+export const DELETE_PARTICIPANT = 'delete_participant'
+export const REMOVE_PARTICIPANT_RATING = 'remove_participant_rating'
+export const LOGOUT_PARTICIPANT = 'logout_participant'
+export const ACCOUNTANT_CHANGED_NEW_PARTICIPANT = 'accountant_changed_new_participant'
